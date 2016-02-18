@@ -1,0 +1,14 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+
+void main()
+{
+	int a,b,x;
+	cout<< "ingrese operadores";
+	cin>>a>>b;
+	x=a+b;
+	cout<<"la suma es:"<<x<<endl;
+	getch();
+}
