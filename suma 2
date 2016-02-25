@@ -1,0 +1,15 @@
+
+#include "stdafx.h"
+#include <iostream>
+using namespace std;
+int _tmain(int argc, _TCHAR* argv[])
+{
+	int a,b;
+	cin>>"tip the digits";
+	cin>>a>>b;
+	cout<<a+b<<endl;
+	system ("PAUSE"); 
+	return 0;
+	
+}
+
