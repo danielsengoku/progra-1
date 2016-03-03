@@ -1,0 +1,13 @@
+#include "stdafx.h"
+#include <iostream>
+using namespace std;
+#include <cmath>
+int _tmain(int argc, _TCHAR* argv[])
+{
+	float a,b;
+	cout<< "escribir la base y la altura";
+		cin>>a>>b;
+	cout<<(a*b)/2<<endl;
+	system ("PAUSE");
+	return 0;
+}
