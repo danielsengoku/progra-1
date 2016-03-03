@@ -1,0 +1,8 @@
+Proceso triangulo
+	escribir "los lados del triangulo conocido. "
+	definir a,b,c,s como real ;
+	leer a,b,c;
+	s<-(a+b+c)/2;
+	escribir s;
+	escribir raiz(s*(s-a)*(s-b)*(s-c));
+FinProceso
