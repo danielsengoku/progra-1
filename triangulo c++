@@ -1,0 +1,12 @@
+#include "stdafx.h"
+#include <iostream>
+using namespace std;
+#include <cmath>
+int _tmain(int argc, _TCHAR* argv[])
+{
+	float a,b,c,s;
+	cin>>a>>b>>c;
+	s=(a+b+c)/2;
+	cout<<sqrt(s*(s-a)*(s-b)*(s-c))<<endl;
+	return 0;
+}
