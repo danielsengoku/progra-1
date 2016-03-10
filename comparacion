@@ -1,0 +1,19 @@
+#include "stdafx.h"
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a;
+	cout<<"escriba su edad";
+	cin>>a;
+	if (a>=18) 
+		cout<<"puede votar en Bolivia"<<endl;
+	else  
+		cout<< "No puede Votar en bolivia"<<endl;
+	if (a>=21)
+		cout<<"puede votar en Japon"<<endl;
+	else  
+		cout<< "No puede votar en japon"<<endl;
+	system ("PAUSE");
+	return 0;
+}
