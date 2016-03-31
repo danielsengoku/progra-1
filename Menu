@@ -1,0 +1,49 @@
+#include "stdafx.h"
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int opcion,b,c,d;
+	do 
+	{
+		cout<<"\tMENU"<<endl;
+		cout<< "1. Calcular salario"<<endl;
+		cout<< "2. Suma"<<endl;
+		cout<< "0. Cerrar programa"<<endl;
+		cout<<"elija su opcion"<<endl;
+		cin>>opcion;
+		if (opcion==1)
+		{
+
+			float n,i,sb,sn,IVA,AFP,r;
+			IVA =0.13;
+			AFP = 0.1271;
+			cout<<"escribir el numero de trabajadores"<<endl;
+			cin>> n;
+			for (i=0; i<n; i++)
+			{
+				cout<<"escribir el salario bruto"<<endl;
+				cin>>sb;
+				if (sb>=7000)
+					sn = sb*(1-(IVA+AFP));
+				else 
+					sn = sb*(1-AFP);
+				cout<<"salario neto es "<< sn<<endl;
+			}
+		}
+		if (opcion ==2)
+		{
+			cin>>b>>c;
+			d= b+c;
+			cout<<"la suma es "<<d<<endl;
+		}
+		if (opcion == 0)
+			cout<<"El programa finalizo"<<endl;
+
+	}
+	while (opcion!=0);
+	system("PAUSE");
+	return 0;
+}
