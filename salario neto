@@ -1,4 +1,3 @@
-
 #include "stdafx.h"
 #include <iostream>
 using namespace std;
@@ -21,9 +20,8 @@ int _tmain(int argc, _TCHAR* argv[])
 			sn = sb*(1-AFP);
 	cout<<"salario neto es "<< sn<<endl;
 	r=r+sn;
-	 cout<<"salario neto total es "<<r;
 	}
+	 cout<<"salario neto total es "<<r<<endl;
 	system("PAUSE");
 	return 0;
 }
-
