@@ -1,0 +1,29 @@
+
+#include "stdafx.h"
+#include <iostream>
+using namespace std;
+
+int _tmain(int argc, _TCHAR* argv[])
+{
+	float n,i,sb,sn,IVA,AFP,r;
+	IVA =0.13;
+	AFP = 0.1271;
+	r=0;
+	cout<<"escribir el numero de trabajadores"<<endl;
+	cin>> n;
+	for (i=0; i<n; i++)
+	{
+		cout<<"escribir el salario bruto"<<endl;
+		cin>>sb;
+		if (sb>=7000)
+			sn = sb*(1-(IVA+AFP));
+		else 
+			sn = sb*(1-AFP);
+	cout<<"salario neto es "<< sn<<endl;
+	r=r+sn;
+	 cout<<"salario neto total es "<<r;
+	}
+	system("PAUSE");
+	return 0;
+}
+
