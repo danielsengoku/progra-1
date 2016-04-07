@@ -29,8 +29,8 @@ int _tmain(int argc, _TCHAR* argv[])
 		cin>>ef;
 		nf=(np*0.2)+(((ep1+ep2+ep3)/3)*0.4)+(ef*0.4);
 		cout<<"la nota final del estudiante es"<<nf<<endl;
-		system("cls");
 		getch ();
+		system("cls");
 		s=s+nf;
 		i=i+1;
 		cout<<"ingrese el numero de registro del estudiante"<<endl;
