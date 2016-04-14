@@ -1,0 +1,24 @@
+// bitch please.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+int _tmain(int argc, _TCHAR* argv[])
+{
+	int i,n,b;
+	cout<<"ingrese n"<<endl;
+	cin>>n;
+	b=1;
+	if (n<0)
+		cout<<"el numero no es valido"<<endl;
+	else
+	for (i=1; i<=n;i++){
+		b=b*i;}
+	cout<<b;
+	getch ();
+	return 0;
+}
