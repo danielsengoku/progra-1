@@ -15,7 +15,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	cin>>n;
 	s=0;
 	i=0;
-	while (i<=n)
+	while (i<n)
 	{
 		cout<<"ingrese la nota practica del alumno"<<endl;
 		cin>>np;
