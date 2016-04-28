@@ -1,0 +1,25 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+using namespace std;
+int _tmain(int argc, _TCHAR* argv[])
+{
+	int a,s;
+	float x,n;
+	cout<<"ingrese el numero de elementos que va a sumar"<<endl;
+	cin>>a;
+	n =1;
+	s=0;
+	cout<<"ingrese el inicio de su serie"<<endl;
+	cin>>x;
+	while ( n <= a)
+	{
+		s= s+(pow(x,n))/n;
+		n=n++;
+	}
+	cout<<s+8<<endl;
+	getch ();
+	return 0;
+} 
+
