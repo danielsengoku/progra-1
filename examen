@@ -1,0 +1,25 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+int _tmain(int argc, _TCHAR* argv[])
+{
+	int a;
+	cout<<"ingrese un numero postivo"<<endl;
+	do
+	{
+	cin>>a;
+	while(a>0)
+	{
+	if (a%2==0)
+			cout<<"es par"<<endl;
+    else
+	    cout<<"es impar"<<endl;
+	cout<<a<<endl;
+	getch ();
+	cin>>a;
+	}
+	}while (a>0);
+	return 0;
+}
+
