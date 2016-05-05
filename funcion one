@@ -1,0 +1,26 @@
+
+#include "stdafx.h"
+#include "conio.h"
+#include <iostream>
+
+using namespace std;
+
+bool parimpar ( int a);
+ int main ()
+ {
+	 int num;
+	 bool z;
+	 cout << "ingrese un numero"<<endl;
+	 cin>>num;
+	 z= parimpar(num);
+	 if (z)
+		 cout<<"es par"<<endl;
+	 else 
+		 cout<<"es impar"<<endl;
+	 getch ();
+	 return 0;
+ }
+ bool parimpar (int a)
+  {
+	 return a&2==0;
+  }
