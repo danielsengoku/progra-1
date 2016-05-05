@@ -1,0 +1,26 @@
+
+#include "stdafx.h"
+#include "conio.h"
+#include <iostream>
+#define iva 0.1271
+#define afp 0.13
+using namespace std;
+
+float total ( int S);
+ int main ()
+ {
+	 int S,Sn,a;
+	 cout << "ingrese el sueldo del tabajdor"<<endl;
+	 cin>>S;
+	 a= total (S);
+	 cout<<"el sueldo neto es de: "<<a<<endl;
+	 getch ();
+	 return 0;
+ }
+ float total (int S)
+  {
+	  if (S<7000)
+		 return S-(iva*S);
+	  else
+		  return S*(1-(iva+afp)); 
+  }
